@@ -1,0 +1,26 @@
+.panel {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #0d1b2a;
+    color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1b263b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
