@@ -1,0 +1,33 @@
+.citas-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.citas-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f0f4f8;
+}
+
+.citas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.cita-card {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.cita-card:hover {
+    transform: translateY(-5px);
+    background-color: #ffffff;
+}
